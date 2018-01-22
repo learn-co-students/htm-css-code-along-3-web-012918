@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+figcaption {
+  /*font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, "New Times Roman", sans-serif;*/
+  font: normal 0.75em/1.5em "Roboto Condensed", "New Times Roman", sans-serif;
+  color: #777;
+  text-align: right;
+}
+
+.milk-text {
+  font: bold 2.6em  "Roboto Condensed", sans-serif;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+
+#logo {
+  background-color: aqua;
+}
+
+#logo h1 h2{
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#details a:link, #details a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color: red;
+}
