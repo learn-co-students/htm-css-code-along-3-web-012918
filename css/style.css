@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900|Elsie:400,900');
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script');
+
+/* This is a comment */
+
+/*CSS Syntax:
+
+sector {
+  property: value;
+  property: value;
+}
+
+*/
+
+/* Type Selector */
+
+p { /* select all p elements */
+  font-size: 1em; /* px, ?pt, 100%, 1em (width of letter m!! 1em=16px) */
+  line-height: 1.5em;
+ }
+
+ figcaption {
+  /*font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, "New Times Roman", serif;*/
+  font: normal 0.75em/1.5em 'Elsie Swash Caps', cursive;
+
+  /* FF0000 red, 00FF00 green, 0000FF blue */ /* shorthand: 8844CC -> 84C (need pairs); */
+  /* RGBA values 0-255, 3 positions: rgba(255,0,0,0.5); */
+  color: #777; 
+  text-align: right;
+ }
+/*font-family: 'Clicker Script', cursive;*/
+/*font-family: 'Elsie Swash Caps', cursive;*/
+
+
+/* Class Selectors */
+
+.milk-text { /* select elements with class attribute = "milk-text" */
+  font: bold 2.6em 'Elsie Swash Caps', cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+
+/* ID Selectors */
+
+#logo {
+  background: aqua;
+}
+
+
+/* Descendent Selector */
+
+#logo h1 { /* selects <h1> if inside id="logo" */
+  font-family: 'Clicker Script', cursive;
+}
+
+#logo h2 {
+  font-family: 'Elsie Swash Caps', cursive;
+}
+
+
+/* Pseudo Class Selectors event state or relationship*/
+
+#details a:link, a:visited { /* descendent selector combined with a compound selector */
+  color: black;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color: red;
+}
